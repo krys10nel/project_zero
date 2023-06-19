@@ -219,14 +219,14 @@ static uint8_t advertData[] =
   DEFAULT_DISCOVERABLE_MODE | GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED,
 
   // complete name
-  16,
+  9,
   GAP_ADTYPE_LOCAL_NAME_COMPLETE,
-  'G', 'o', 'l', 'd', 'f', 'i', 's', 'h', 'C', 'r', 'a', 'c', 'k', 'e', 'r',
+  'T', 'I', 'C', 'C', '2', '6', '4', '0',
 
 };
 
 // GAP GATT Attributes
-static uint8_t attDeviceName[GAP_DEVICE_NAME_LEN] = "GoldfishCracker";
+static uint8_t attDeviceName[GAP_DEVICE_NAME_LEN] = "TICC2640";
 
 // Globals used for ATT Response retransmission
 static gattMsgEvent_t *pAttRsp = NULL;

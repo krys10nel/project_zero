@@ -178,7 +178,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="TOOLS/cc26xx_app.cmd|Startup/ccfg_app_ble_rcosc.c|Drivers/UDMA/UDMACC26XX.c|Drivers/UART/UARTCC26XX.c|Drivers/UART/UART.c|Drivers/SPI/SPICC26XXDMA.c|Drivers/SPI/SPI.c|Drivers/PIN/PINCC26XX.c|Drivers/Display/DisplayUart.c|Drivers/Display/DisplayDogm1286.c|Drivers/Display/Display.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="TOOLS/src|TOOLS/cc26xx_app.cmd|Startup/ccfg_app_ble_rcosc.c|Drivers/UDMA/UDMACC26XX.c|Drivers/UART/UARTCC26XX.c|Drivers/UART/UART.c|Drivers/SPI/SPICC26XXDMA.c|Drivers/SPI/SPI.c|Drivers/PIN/PINCC26XX.c|Drivers/Display/DisplayUart.c|Drivers/Display/DisplayDogm1286.c|Drivers/Display/Display.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
