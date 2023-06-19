@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>project_zero_cc2640r2lp_app</name>
+	<name>project_zero_cc2640r2lp_app_modified</name>
 	<comment></comment>
 	<projects>
 		<project>project_zero_cc2640r2lp_stack_library</project>
@@ -200,32 +200,32 @@
 		<link>
 			<name>Drivers/Display/Display.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/display/Display.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/display/Display.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/Display/Display.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/display/Display.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/display/Display.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/Display/DisplayDogm1286.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/display/DisplayDogm1286.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/display/DisplayDogm1286.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/Display/DisplayDogm1286.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/display/DisplayDogm1286.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/display/DisplayDogm1286.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/Display/DisplayUart.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/display/DisplayUart.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/display/DisplayUart.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/Display/DisplayUart.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/display/DisplayUart.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/display/DisplayUart.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/ECC/ECCROMCC26XX.c</name>
@@ -240,47 +240,47 @@
 		<link>
 			<name>Drivers/PIN/PIN.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/PIN.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/PIN.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/PIN/PINCC26XX.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/pin/PINCC26XX.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/pin/PINCC26XX.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/PIN/PINCC26XX.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/pin/PINCC26XX.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/pin/PINCC26XX.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/RF/RF.h</name>
 			<type>1</type>
-			<locationURI>PARENT-3-SRC_BLE_DIR/source/ti/drivers/rf/RF.h</locationURI>
+			<locationURI>copy_PARENT/source/ti/drivers/rf/RF.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/RF/RFCC26XX_singleMode.c</name>
 			<type>1</type>
-			<locationURI>PARENT-3-SRC_BLE_DIR/source/ti/drivers/rf/RFCC26XX_singleMode.c</locationURI>
+			<locationURI>copy_PARENT/source/ti/drivers/rf/RFCC26XX_singleMode.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/SPI/SPI.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/SPI.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/SPI.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/SPI/SPI.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/SPI.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/SPI.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/SPI/SPICC26XXDMA.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/spi/SPICC26XXDMA.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/spi/SPICC26XXDMA.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/SPI/SPICC26XXDMA.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/spi/SPICC26XXDMA.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/spi/SPICC26XXDMA.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/TRNG/TRNGCC26XX.c</name>
@@ -295,32 +295,32 @@
 		<link>
 			<name>Drivers/UART/UART.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/UART.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/UART.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/UART/UART.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/UART.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/UART.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/UART/UARTCC26XX.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/uart/UARTCC26XX.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/uart/UARTCC26XX.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/UART/UARTCC26XX.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/uart/UARTCC26XX.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/uart/UARTCC26XX.h</locationURI>
 		</link>
 		<link>
 			<name>Drivers/UDMA/UDMACC26XX.c</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/dma/UDMACC26XX.c</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/dma/UDMACC26XX.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/UDMA/UDMACC26XX.h</name>
 			<type>1</type>
-			<locationURI>TI_RTOS_DRIVERS_BASE/ti/drivers/dma/UDMACC26XX.h</locationURI>
+			<locationURI>TI_RTOS_DRIVERS_BASE1/ti/drivers/dma/UDMACC26XX.h</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
@@ -337,8 +337,16 @@
 			<value>$%7BPARENT-2-SRC_BLE_DIR%7D</value>
 		</variable>
 		<variable>
+			<name>TI_RTOS_DRIVERS_BASE1</name>
+			<value>$%7BTI_PRODUCTS_DIR%7D/simplelink_cc2640r2_sdk_5_30_00_03/source</value>
+		</variable>
+		<variable>
 			<name>TOOLS_BLE_DIR</name>
 			<value>$%7BPARENT-3-SRC_BLE_DIR%7D/tools/blestack</value>
+		</variable>
+		<variable>
+			<name>copy_PARENT</name>
+			<value>$%7BTI_PRODUCTS_DIR%7D/simplelink_cc2640r2_sdk_5_30_00_03</value>
 		</variable>
 	</variableList>
 </projectDescription>
