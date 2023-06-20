@@ -7,7 +7,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.C:\Users\Krystene\git\repository\project_zero_cc2640r2lp_app\targetConfigs\CC2640R2F.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="${build_artifact:project_zero_cc2640r2lp_app_modified}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.C:\Users\Krystene\git\repository\project_zero_cc2640r2lp_app\targetConfigs\CC2640R2F.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="project_zero_cc2640r2lp_app_modified"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:project_zero_cc2640r2lp_app_modified}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.C:\Users\Krystene\git\repository\project_zero_cc2640r2lp_app\targetConfigs\CC2640R2F.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="C:/Users\Krystene\git\repository\project_zero_cc2640r2lp_app\FlashROM_StackLibrary\project_zero_cc2640r2lp_app_modified.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.C:\Users\Krystene\git\repository\project_zero_cc2640r2lp_app\targetConfigs\CC2640R2F.ccxml.Texas Instruments XDS110 USB Debug Probe/Cortex_M3_0" value="C:/Users\Krystene\git\repository\project_zero_cc2640r2lp_app\BT_Module_Compatible\project_zero_cc2640r2lp_app_modified.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/project_zero_cc2640r2lp_app_modified"/>
 </listAttribute>

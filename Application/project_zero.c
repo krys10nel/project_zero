@@ -249,8 +249,8 @@ static PIN_State ledPinState;
  *   - LEDs Board_LED0 & Board_LED1 are off.
  */
 PIN_Config ledPinTable[] = {
-  Board_RLED | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL | PIN_DRVSTR_MAX,
-  Board_GLED | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL | PIN_DRVSTR_MAX,
+  Board_PIN_RLED | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL | PIN_DRVSTR_MAX,
+  Board_PIN_GLED | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL | PIN_DRVSTR_MAX,
   PIN_TERMINATE
 };
 
@@ -258,7 +258,7 @@ PIN_Config ledPinTable[] = {
  * Configure one of the DIO0 pin
  */
 PIN_Config myGPIOPinTable[] = {
-  Board_DIO0 | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL | PIN_DRVSTR_MAX,
+  Board_PWM2 | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL | PIN_DRVSTR_MAX,
   PIN_TERMINATE
 };
 
@@ -994,7 +994,7 @@ void user_LedService_ValueChangeHandler(char_data_t *pCharData)
       // Do something useful with pCharData->data here
       // -------------------------
       // Set the output value equal to the received value. 0 is off, not 0 is on
-      PIN_setOutputValue(ledPinHandle, Board_RLED, pCharData->data[0]);
+      PIN_setOutputValue(ledPinHandle, Board_PIN_RLED, pCharData->data[0]);
       Log_info2("Turning %s %s",
                 (IArg)"\x1b[31mLED0\x1b[0m",
                 (IArg)(pCharData->data[0]?"on":"off"));
@@ -1009,7 +1009,7 @@ void user_LedService_ValueChangeHandler(char_data_t *pCharData)
       // Do something useful with pCharData->data here
       // -------------------------
       // Set the output value equal to the received value. 0 is off, not 0 is on
-      PIN_setOutputValue(ledPinHandle, Board_GLED, pCharData->data[0]);
+      PIN_setOutputValue(ledPinHandle, Board_PIN_GLED, pCharData->data[0]);
       Log_info2("Turning %s %s",
                 (IArg)"\x1b[32mLED1\x1b[0m",
                 (IArg)(pCharData->data[0]?"on":"off"));
@@ -1036,7 +1036,7 @@ void user_MyGPIOService_ValueChangeHandler(char_data_t *pCharData)
                   (IArg)"MYGPIO Service",
                   (IArg)"ON/OFF",
                   (IArg)data_holder);
-        PIN_setOutputValue(myGPIOPinHandle, Board_DIO0, pCharData->data[0]);
+        PIN_setOutputValue(myGPIOPinHandle, Board_PWM3, pCharData->data[0]);
         Log_info2("Turning %s %s",
                   (IArg)"\x1b[31mMYGPIO\x1b[0m",
                   (IArg)(pCharData->data[0]?"on":"off"));
